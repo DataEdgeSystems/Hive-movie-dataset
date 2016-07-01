@@ -3,6 +3,7 @@
 # Finding the most preferred movie genres for every user
 
 In this I am finding the most preferred movie genres for every user by writing a hive query that takes in a movie rating dataset and for every user:
+
 •	Calculates the average ratings provided by that user for various movie genres, and also
 •	Returns the top five genres for each user. The output is sorted first by the user and then by the average rating.
  There are two input files used:
@@ -44,16 +45,28 @@ The size of the data is 25MB.
 Here are the first few lines of the output I get when I run my solution using option B.
 
 1 War 5.0 
+
 1 Drama 4.428571 
+
 1 Sci-Fi 4.3333335 
-1 Musical 4.285714 
+
+1 Musical 4.285714
+
 1 Children's 4.25 
+
 2 Western 4.3333335 
+
 2 Film-Noir 4.0 
+
 2 Drama 3.898734 
+
 2 Adventure 3.7368422 
+
 2 War 3.7333333 
+
 3 Western 4.6666665 
-3 Fantasy 4.5 
+
+3 Fantasy 4.5
+
 3 Adventure 4.0
 
