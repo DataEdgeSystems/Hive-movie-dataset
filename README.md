@@ -28,7 +28,9 @@ Instead of:
 You want to produce:
 
 2#Jumanji (1995)#Adventure
+
 2#Jumanji (1995)# Children's
+
 2#Jumanji (1995)# Fantasy
 
 We can accomplish this in two different ways:
