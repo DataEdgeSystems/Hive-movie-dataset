@@ -1,11 +1,12 @@
 # Hive-movie-dataset
 
-Finding the most preferred movie genres for every user
+# Finding the most preferred movie genres for every user
 
 In this I am finding the most preferred movie genres for every user by writing a hive query that takes in a movie rating dataset and for every user:
 •	Calculates the average ratings provided by that user for various movie genres, and also
 •	Returns the top five genres for each user. The output is sorted first by the user and then by the average rating.
  There are two input files used:
+ 
 •	Movies.dat : this file consists of movies information and comprises of the following format (genres are delimited by “|”) : 
 
 Movie_id#movie_title#genre1|genre2|genre3|… 
@@ -23,7 +24,7 @@ Instead of:
 
 2#Jumanji (1995)#Adventure|Children's|Fantasy
 
-You want to have:
+You want to produce:
 
 2#Jumanji (1995)#Adventure
 2#Jumanji (1995)# Children's
